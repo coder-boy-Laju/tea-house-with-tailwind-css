@@ -6,7 +6,7 @@
 
 @layer components{
     .btn{
-        @apply flex items-center gap-2 font-bold text-lg bg-gradient-to-l hover:bg-gradient-to-r from-primary to-secondary px-5 py-4 text-white rounded-lg
+        @apply flex items-center gap-2 font-bold text-lg bg-gradient-to-l hover:bg-gradient-to-r from-primary to-secondary px-5 py-4 text-white rounded-lg;
     }
 }
 
@@ -14,5 +14,23 @@
 .description{
     @apply  font-medium leading-[1.875rem] text-gray-2 text-lg;
 }
+.title{
+    @apply text-5xl text-gray-1 font-extrabold;
+}
+.cards{
+    @apply text-center rounded-xl p-7  bg-gradient-to-b from-[#F4F4F4] to-[#F4F4F400];
+}
+.card_img{
+    @apply grid place-items-center mb-7;
+}
+.card_titel{
+    @apply text-3xl font-extrabold text-gray-1 mb-2;
+}
+.card_description{
+   @apply text-base text-gray-2 font-semibold;
+}
+
+
+
 
 }
