@@ -31,10 +31,11 @@
 }
 
 .Footer_link_titel{
-   @apply text-gray-1 mb-4 font-semibold text-2xl
+   @apply text-gray-1 mb-4 font-semibold text-2xl;
 }
+
 .footer_link_href{
-    @apply text-gray-3 font-semibold no-underline transition-all duration-75;
+    @apply text-gray-3 font-semibold no-underline transition-all duration-75 hover:bg-gradient-to-r  hover:from-primary  hover:to-secondary hover:bg-clip-text hover:text-transparent;
 }
 
 
